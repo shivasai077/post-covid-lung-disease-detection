@@ -1,0 +1,13 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore model and large binary files
+*.keras
+*.pyd
+*.dll
+*.h5
+*.pb
+
+# Ignore datasets if needed
+dataset/ 
